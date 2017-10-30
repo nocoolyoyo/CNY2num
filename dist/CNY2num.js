@@ -17,8 +17,6 @@ function CNY2num(ChineseStr) {
     var parts; //分离金额后用的数组，预定义
 
     console.log(ChineseStr)
-
-
     //兆单位分割
     parts  = ChineseStr.split(cnIntUnits[3]);
     //单位兆
@@ -43,5 +41,4 @@ function CNY2num(ChineseStr) {
 //叁拾贰万肆仟叁佰贰拾肆元
    // parts[0].spit(cnIntRadice[2])
    // console.log(parts)
-
 }
