@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="num2RMB" type="text">
+<button onclick="testNum2RMB()">转换</button>
+<div id="num2RMBResult"></div>
+
+<script src="../dist/num2CNY.js"></script>
+
+<script>
+
+
+    function testNum2RMB() {
+        var value = document.querySelector("#num2RMB").value;
+        console.log(num2RMB(value))
+
+
+    }
+</script>
+</body>
+</html>

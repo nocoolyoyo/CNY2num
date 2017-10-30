@@ -1,0 +1,23 @@
+{
+  "name": "R",
+  "version": "1.0.0",
+  "description": "人名币金额大小写转换",
+  "main": "bundle.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --config ./webpack.dev.config.js",
+    "dev": "webpack --progress --colors --config ./webpack.dev.config.js",
+    "build": " webpack --progress --colors --config ./webpack.prod.config.js"
+  },
+  "author": "nocoolyoyo",
+  "license": "ISC"
+}
