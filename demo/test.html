@@ -10,16 +10,24 @@
 <button onclick="testNum2RMB()">转换</button>
 <div id="num2RMBResult"></div>
 
-<script src="../dist/num2CNY.js"></script>
+<input id="RMB2num" type="text">
+<button onclick="testRMB2num()">转换</button>
+<div id="RMB2numResult"></div>
 
+<script src="../dist/num2CNY.js"></script>
+<script src="../dist/CNY2num.js"></script>
 <script>
 
 
     function testNum2RMB() {
         var value = document.querySelector("#num2RMB").value;
-        console.log(num2RMB(value))
+        console.log(num2CNY(value))
+    }
 
 
+    function testRMB2num() {
+        var value = document.querySelector("#RMB2num").value;
+        console.log(CNY2num(value))
     }
 </script>
 </body>

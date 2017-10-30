@@ -10,7 +10,7 @@ var cnDecUnits = ["角","分","毫","厘"]; //对应小数部分单位
 var cnIntLast = "元"; //整型完以后的单位
 var maxNum = 999999999999999.99; //最大处理的数字
 
-function num2RMB(money) {
+function num2CNY(money) {
     var IntegerNum; //金额整数部分
     var DecimalNum; //金额小数部分
     var ChineseStr=""; //输出的中文金额字符串
